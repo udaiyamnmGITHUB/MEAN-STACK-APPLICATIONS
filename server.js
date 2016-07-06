@@ -12,3 +12,6 @@ http.createServer(app).listen(app.get('port'), app.get('ip'), function(){
 app.get('/', function (req, res) {
   res.send('Hello World!');
 });
+app.get('/sayHi', function (req, res) {
+  res.send('Hi!, Udai');
+});
